@@ -64,7 +64,10 @@
 //        //$(this).attr('style', 'border: 1px solid #000 !important');
 //      });
 //    });
-  </script>    
+  </script>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.min.js"></script>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/bootstrap.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js" type="text/javascript"></script>
 </head>
 
 <body <?php body_class(); ?>>
